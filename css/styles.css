@@ -1,0 +1,164 @@
+/* body font change */
+body {
+  font-family: Montserrat;
+}
+
+/* changing the h1 style */
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: Montserrat;
+  line-height: 1.5;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: "Montserrat", cursive;
+}
+
+.para {
+  font-family: cursive;
+  color: #8f8f8f;
+}
+
+/* giving the background color to the title section */
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* changing the brand  and h1 position */
+.container-fluid {
+  padding: 3% 14% 7%;  /* this line will change the image size(show)*/
+}
+
+/* navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+  /* this is for the distance between the navbara to the lower section */
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  /*this is for the distance between the items in the list  */
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat-light;
+  font-weight: lighter;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+  /* to give the distance to the h1 and look more better  */
+}
+
+/* title image  */
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;   /*here we are hidding the bottom img section by changing the position and adding the z-index to it*/
+  left: 10%;
+}
+
+/* feature section */
+#features {
+  padding: 7% 15%;
+  /* here we add some padding to our website to look more great */
+  background-color: #fff;/*here we give the background color to white which will not transparent and help the image work*/
+  position: relative;
+  z-index: 1; /* this will give the position where the the over laping will work*/
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+  /* this will give the distance between the icon and the h3*/
+}
+
+.icon:hover {
+  color: #ff4c68;
+  /* this hover will give the effect when the cursur will pass through it */
+}
+
+/* testimonials section */
+/* this is the testimonial section where we can style( how to give the slide show img effect) */
+#testimonials {
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+  /* it will provide the distance between the text and the boarder */
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+  /*in this margin will give the distance between each logo 20px top, 20px reigt and left and 50px bottom */
+}
+
+/* pricing section  */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-coloum{
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+    }
+.title-img{
+  position: static;
+  transform: rotate(0);
+}
+}
+#cta{
+  color: #fff;
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 5% 5%;
+}
+
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.foo{
+  margin:1% 1%;
+}
